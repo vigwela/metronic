@@ -82,10 +82,10 @@ main {
     color: #009ef7;
 }
 
-.box {
+.box1 {
     width: 130px;
     height: 70px;
-    border: 1px dotted #5e6278;
+    border: 1px dashed rgb(206, 204, 204, 0.6);
     border-radius: 5px;
     text-align: center;
 }
@@ -168,7 +168,35 @@ main {
 .side-btn3 {
     position: fixed;
     right: 0;
-    bottom: 0%;
+}
+
+.document-section, .document-section2, .document-section3{
+    display: flex;
+    gap: 57px;
+    align-items: center;
+}
+
+.followers-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.followers-section .card {
+    width: 35rem;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    border: 1px dashed rgb(206, 204, 204, 0.3);
+    text-align: center;
+    
+}
+
+.following-btn{
+    background-color: #f1faff;
+    color: #009ef7;
 }
 
 
@@ -220,5 +248,41 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .document-section, .document-section3, .document-section2 {
+        flex-direction: column;
+        gap: 20px; 
+    }
+    
+    .document-section2 {
+        grid-template-columns: 1fr;
+        gap: 20px;      
+    }
+
+    .doc-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .followers-section {
+        grid-template-columns: 1fr;
+    }
+
+    .followers-section .card{
+        width: 100%;
+    }  
+      
+    .box{
+        margin: 0;
+    }
+      
+    .boxcover2{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+
+
+  
   
 }
