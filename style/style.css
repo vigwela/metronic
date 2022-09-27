@@ -168,11 +168,12 @@ main {
 .side-btn3 {
     position: fixed;
     right: 0;
+    bottom: 0;
 }
 
 .document-section, .document-section2, .document-section3{
     display: flex;
-    gap: 57px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -183,7 +184,7 @@ main {
 }
 
 .followers-section .card {
-    width: 35rem;
+    width: 30rem;
 }
 
 .box {
